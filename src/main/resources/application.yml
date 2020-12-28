@@ -1,0 +1,10 @@
+#指定路径
+spring:
+  servlet:
+    multipart:
+      #最大请求支持
+      max-request-size: 100MB
+      #接受最大文件支持
+      max-file-size: 100MB
+  profiles:
+    active: pro

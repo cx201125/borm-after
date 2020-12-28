@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chenxin.cqcvc_dorm.dao.AdminDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.chenxin.cqcvc_dorm.entity.AdminEntity" id="adminMap">
+        <result property="adminId" column="admin_id"/>
+        <result property="adminAge" column="admin_age"/>
+        <result property="adminSex" column="admin_sex"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="realname" column="realname"/>
+        <result property="phone" column="phone"/>
+        <result property="homeAddr" column="home_addr"/>
+        <result property="headPortrait" column="head_portrait"/>
+        <result property="createtime" column="createtime"/>
+        <result property="updatetime" column="updatetime"/>
+        <result property="disable" column="disable"/>
+    </resultMap>
+
+
+</mapper>
