@@ -29,7 +29,7 @@ logging:
     #设置日志的打印级别
     com.chenxin.cqcvc_dorm: debug
   file:
-    name: log/dev_blog.log
+    name: log/pro_dorm.log
 server:
   port: 8888
   servlet:
