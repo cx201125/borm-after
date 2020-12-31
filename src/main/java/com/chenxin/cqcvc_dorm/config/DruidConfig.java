@@ -14,6 +14,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 配置阿里巴巴Druid数据源的监控平台
+ */
 @Configuration
 public class DruidConfig {
     @Bean
